@@ -194,4 +194,116 @@ Period:
 
 # Validation Results
 
-Training period:
+Training period: Jan 2015 – Jun 2025
+Testing period: Jul 2025 – Jun 2026
+
+
+Forecast validation:
+
+| Market | Selected Model | MAPE | Beats Benchmark |
+|---|---|---|---|
+| Vietnam | SARIMA(0,1,2)(0,1,1)12 | 14.13% | Yes |
+| Thailand | SARIMA(1,1,2)(0,1,1)12 | 15.59% | Yes |
+| Malaysia | ETS Level | 13.88% | No |
+
+---
+
+# Power BI Dashboard
+
+The dashboard contains three pages:
+
+### 1. Market Overview
+
+Includes:
+
+- Latest 12-month export value
+- Market ranking
+- Rolling 12-month trends
+- Commodity composition
+- China's recent recovery
+
+
+### 2. Market Prioritisation
+
+Includes:
+
+- Growth vs volatility bubble chart
+- CAGR sensitivity analysis
+- Market prioritisation table
+
+
+### 3. Forecast Validation & 12-Month Outlook
+
+Includes:
+
+- Model comparison
+- Benchmark performance
+- Forecast intervals
+- Residual diagnostics
+
+The dashboard focuses on explaining decision logic rather than presenting forecasts as certain outcomes.
+
+---
+
+# Limitations
+
+## Nominal Export Values
+
+Export values are FOB nominal values and are not adjusted for inflation.
+
+## Value vs Volume
+
+ABS data contains export value only. Higher export value cannot be separated into:
+
+- Higher shipment volume
+- Higher commodity prices
+
+## Structural Changes
+
+The modelling period includes:
+
+- COVID disruption
+- Australia-China trade tensions
+- Commodity-cycle changes
+
+## Forecasting Scope
+
+The models are univariate and do not include:
+
+- Commodity prices
+- Exchange rates
+- GDP
+- Industrial demand
+- Policy variables
+
+---
+
+# Repository Structure
+
+```text
+australian-metals-market-prioritisation/
+
+├── data/
+│   └── clean/
+│       └── exports_tidy.csv
+
+├── src/
+│   ├── clean.py
+│   └── model.py
+
+├── outputs/
+│   ├── forecast_intervals.csv
+│   ├── model_validation.csv
+│   ├── cagr_sensitivity.csv
+│   ├── recent_momentum.csv
+│   └── model_results.md
+
+├── powerbi/
+│   └── Australian_Metals_Market_Prioritisation.pbix
+
+├── dashboard/
+│   ├── 01_market_overview.png
+│   ├── 02_market_prioritisation.png
+│   └── 03_forecast_validation.png
+
+└── README.md
