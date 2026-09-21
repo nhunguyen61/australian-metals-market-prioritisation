@@ -4,6 +4,16 @@ A market-prioritisation analysis of Australian merchandise exports using 138 mon
 
 **Dashboard:** Power BI, with three pages: **Market Overview**, **Market Prioritisation**, and **Forecast Validation & 12-Month Outlook**. A public Power BI embed is not included; the portfolio version should retain the `.pbix` backup and static dashboard screenshots in the repository.
 
+## Dashboard Preview
+
+### Market Overview
+![Market Overview](dashboard/01_market_overview)
+
+### Market Prioritisation
+![Market Prioritisation](dashboard/02_market_prioritisation)
+
+### Forecast Validation
+![Forecast Validation](dashboard/03_forecast_validation)
 ---
 
 ## The question
