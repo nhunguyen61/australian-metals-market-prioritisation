@@ -1,0 +1,4 @@
+market,winning_model,test_MAPE,benchmark_MAPE,beats_benchmark,latest_12m,forecast_median,change_pct,lo80,hi80,lo95,hi95,growth_excludes_zero_80,ets_aicc,sarima_aic,n_params_tested,ljungbox_p_lag12,ljungbox_p_lag24
+Vietnam,"SARIMA(0, 1, 2)(0, 1, 1, 12)",14.13,16.72,True,1676.0,1940.0,15.8,1654.0,2227.0,1505.0,2372.0,False,1033.73,815.66,4,0.303,0.4048
+Thailand,"SARIMA(1, 1, 2)(0, 1, 1, 12)",15.59,21.11,True,1411.0,1518.0,7.5,1298.0,1735.0,1187.0,1857.0,False,1093.25,874.35,5,0.4548,0.567
+Malaysia,ETS level only,13.88,12.08,False,2173.0,2072.0,-4.7,1464.0,2700.0,1120.0,3009.0,False,1245.55,976.18,2,0.0011,0.0097

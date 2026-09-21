@@ -1,0 +1,13 @@
+market,model,MAE,MAPE,selected_on
+Vietnam,"SARIMA(0, 1, 2)(0, 1, 1, 12)",19.77,14.13,training sample
+Vietnam,Naive (flat),23.84,16.72,n/a (benchmark)
+Vietnam,ETS seasonal,25.92,18.19,training sample
+Vietnam,Seasonal naive,24.32,18.49,n/a (benchmark)
+Thailand,"SARIMA(1, 1, 2)(0, 1, 1, 12)",16.79,15.59,training sample
+Thailand,ETS level only,17.98,17.43,training sample
+Thailand,Seasonal naive,25.99,21.11,n/a (benchmark)
+Thailand,Naive (flat),65.94,58.97,n/a (benchmark)
+Malaysia,Naive (flat),21.63,12.08,n/a (benchmark)
+Malaysia,ETS level only,27.47,13.88,training sample
+Malaysia,"SARIMA(0, 1, 2)(0, 1, 1, 12)",38.62,19.82,training sample
+Malaysia,Seasonal naive,53.66,28.0,n/a (benchmark)
