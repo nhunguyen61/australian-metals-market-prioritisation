@@ -6,14 +6,16 @@ A market-prioritisation analysis of Australian merchandise exports using 138 mon
 
 ## Dashboard Preview
 
+## Dashboard Preview
+
 ### Market Overview
-![Market Overview](dashboard/01_market_overview)
+![Market Overview](dashboard/01_market_overview.png)
 
 ### Market Prioritisation
-![Market Prioritisation](dashboard/02_market_prioritisation)
+![Market Prioritisation](dashboard/02_market_prioritisation.png)
 
 ### Forecast Validation
-![Forecast Validation](dashboard/03_forecast_validation)
+![Forecast Validation](dashboard/03_forecast_validation.png)
 ---
 
 ## The question
