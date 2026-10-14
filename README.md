@@ -17,21 +17,9 @@ The portfolio version retains the `.pbix` backup and static dashboard screenshot
 
 # Dashboard Preview
 
-## Market Overview
-
-![Market Overview](dashboard/01_market_overview.png)
-
-
-## Market Prioritisation
-
-![Market Prioritisation](dashboard/02_market_prioritisation.png)
-
-
-## Forecast Validation & Outlook
-
-![Forecast Validation](dashboard/03_forecast_validation.png)
-
-
+![Market Overview](australian-metals-market-prioritisation/dashboard/01_market_overview.png)
+![Market Prioritisation](australian-metals-market-prioritisation/dashboard/02_market_prioritisation.png)
+![Forecast Validation](australian-metals-market-prioritisation/dashboard/03_forecast_validation.png)
 ---
 
 # Key Findings
